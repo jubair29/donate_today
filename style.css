@@ -1,0 +1,137 @@
+*{
+    font-family: 'Inter', sans-serif;
+    list-style: none;
+    margin: 0 auto;
+}
+/* header style----------- */
+.header_section{
+    background-image: url(images/donation13.jpg);
+    background-color: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0.336) 100%);
+    width: 1440px;
+    height: 669px;  
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header_part{
+    text-align: center;
+    padding: 174px 307px;
+}
+.header_title{
+    font-weight: 700;
+    font-size: 65px;
+    color: #FFFFFF;
+}
+.header_dep{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    padding-top: 20px;
+    padding-bottom: 30px;
+
+}
+.btn_primary{
+    padding: 16px 12px;
+    background: #FF5959;
+    border-radius: 5px;
+    border: 0;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+}
+/* today style------------ */
+.section_title{
+    text-align: center;
+    margin-top: 130px;
+    font-weight: 700;
+    font-size: 45px;
+    color: #121212;
+}
+.today_part{
+    text-align: center;
+    padding: 0 374px;
+}
+.today_dep{
+    color: #707070;
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.today_tk li{
+    padding: 44px 24px;
+    font-weight: 700;
+    font-size: 30px;
+    color: #707070;
+    
+
+}
+.today_tk {
+    display: flex;
+    gap: 22px;
+    padding-left: 362px;
+    padding-right: 348px;
+
+
+}
+
+.color_li{
+    background: #FFEEEE;
+    border: 2px solid #FF5959;
+    border-radius: 5px;
+    padding: 44px 24px;
+    color: #FF5959;
+}
+
+.others_tk{
+    margin-top: 60px;
+    text-align: center;
+    padding: 0 338px;
+    margin-left: 10px;
+}
+.amount{
+    font-size: 18px;
+    color: #b3b3b3;
+    font-family: 'Poppins';
+}
+.others_tk li{
+    margin-top: 40px;
+}
+
+/* plan style--------- */
+.plan_text{
+    padding: 0 375px;
+    text-align: center;
+}
+.plan_dep{
+    color: #707070;
+    font-size: 18px;
+    font-weight: 400;
+
+    margin-bottom: 54px;
+
+}
+.display_box{
+    display: flex;
+}
+.plan-container{
+    display: flex;
+    gap: 24px;
+    margin: 0 170px;
+}
+.plan-box{
+    background: rgba(79, 157, 166, 0.1);
+    border-radius: 5px;
+    padding: 64px 22px 54px;
+}
+.box-title{
+    font-weight: 600;
+    font-size: 24px;
+    color: #121212;
+    padding-top: 30px;
+    padding-bottom: 16px;
+}
+.box-dep{
+    font-size: 16px;
+    line-height: 24px;
+    color: #707070;
+}
