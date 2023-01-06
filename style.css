@@ -116,10 +116,21 @@
 .plan-container{
     display: flex;
     gap: 24px;
-    margin: 0 170px;
+    margin: 53px 170px 130px;
 }
 .plan-box{
     background: rgba(79, 157, 166, 0.1);
+    border-radius: 5px;
+    padding: 64px 22px 54px;
+    
+}
+.plan-box2{
+    background: rgba(255, 89, 89, 0.1);
+    border-radius: 5px;
+    padding: 64px 22px 54px;
+}
+.plan-box3{
+    background: #FFF4D6;
     border-radius: 5px;
     padding: 64px 22px 54px;
 }
